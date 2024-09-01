@@ -1,0 +1,205 @@
+/*css по умолчанию */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* переменные для цветов */
+html{
+	---color-yellow: #FFD100; 
+	---color-red: #941B0C;
+	---color-black: #000000;
+	---color-gray: #808080;
+	---color-white: #F3F3F3; 
+	---color-white2: #FFFFFF;
+}
+/*                                          */
+.container{
+	width: 760px;
+	height: 454px;
+	display: flex;
+	background-color: var(---color-black);
+	align-items: flex-end;
+	justify-content: space-between;
+	
+}
+.blackWindow{
+	width: 80px;
+	height: 80px;
+	background-color: var(---color-black);
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 0% 15% 15% 0%;
+
+
+}
+.left{
+	background-color: var(---color-white2);
+	height: 434px;
+	border-radius: 0% 2% 2% 0%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.headerOne{
+	width: 350px;
+	height: 180px;
+}
+.mainOne{
+	width: 290px;
+	height: 98px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bigText{
+	text-transform: capitalize;
+	font-size: 24px;
+	font-weight: 550;
+	padding-left: 30px;
+	font-family: "Rubik", sans-serif;
+}
+.smallText{
+	width: 290px;
+	font-size: 14px;
+	color: var(---color-gray);
+	padding-left: 30px;
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+}
+.footerOne{
+	display: flex;
+	text-align: end;
+
+}
+.crossedOut{
+	width: 220px;
+	height: 22px;
+	font-size: 18px;
+	color: var(---color-gray);
+	text-decoration: line-through;
+	font-weight: 500;
+	font-family: "Rubik", sans-serif;
+}
+.price{
+	width: 220px;
+	height: 52px;
+	font-size: 43px;
+	color: var(---color-red);
+	font-weight: 500;
+	font-family: "Rubik", sans-serif;
+}
+
+
+
+
+.blackWindow2{
+	width: 80px;
+	height: 80px;
+	background-color: var(---color-black);
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 0% 15% 15% 0%;
+
+
+}
+.right{
+	background-color: var(---color-yellow);
+	height: 434px;
+	border-radius: 0% 2% 2% 0%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.headerTwo{
+	width: 350px;
+	height: 180px;
+}
+.mainTwo{
+	width: 290px;
+	height: 98px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bigText2{
+	text-transform: capitalize;
+	font-size: 24px;
+	font-weight: 500;
+	padding-left: 30px;
+	font-family: "Rubik", sans-serif;
+}
+.smallText2{
+	width: 290px;
+	font-size: 14px;
+	color: var(---color-gray);
+	padding-left: 30px;
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+}
+.footerTwo{
+	display: flex;
+	text-align: end;
+
+}
+.crossedOut2{
+	width: 220px;
+	height: 22px;
+	font-size: 18px;
+	color: var(---color-gray);
+	text-decoration: line-through;
+	font-weight: 600;
+	font-family: "Rubik", sans-serif;
+	
+}
+.price2{
+	width: 220px;
+	height: 52px;
+	font-size: 43px;
+	color: var(---color-red);
+	font-weight: 600;
+	font-family: "Rubik", sans-serif;
+}
+.container > img{
+	position: absolute;
+	top: 0px;
+	left: 377px;
+}
